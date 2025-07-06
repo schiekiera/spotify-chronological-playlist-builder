@@ -92,6 +92,11 @@ Afterwards, your target playlist will be created and the songs will be added to 
 You can execute the same script as above to update the playlist. All new songs will be added to the target playlist. You don't need to login again.
 
 
+
+
+
+------------------------------
+
 ### 7. Automation with Cron (macOS/Linux)
 
 To run the manager script once for testing:
@@ -116,10 +121,3 @@ To run the script automatically every day at 8 AM:
     b) If you're in nano, press Ctrl+O to save, then Ctrl+X to exit.
 5.  Save and close the editor.
 6.  Check if the cron job is working by running `crontab -l`.
-
-
-
-## Security
-
-- **NEVER** commit your `.env` file or any other file containing your `SPOTIPY_CLIENT_SECRET` to a public repository.
-- The `.gitignore` file is configured to prevent this, but you should always be careful. 
