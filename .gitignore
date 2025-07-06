@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+.idea/ 
