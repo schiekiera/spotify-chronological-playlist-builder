@@ -2,13 +2,6 @@
 
 This project contains a set of scripts to automatically create and update a Spotify using the Spotify API (python's spotipy library) playlist based on the most recently added tracks from a user's other playlists.
 
-📁 spotify-chronological-playlist-builder
-├── 📄 README.md
-├── 📄 manage_playlist.py
-└── 📄 run_daily_update.sh
-├── 📄 requirements.txt
-└── 📄 .gitignore
-
 
 ## How It Works
 
